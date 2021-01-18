@@ -25,7 +25,10 @@
     "build": "rimraf build && tsc",
     "build:npm": "tsc && copy package.json build && copy README.md build && copy assets/logo.png build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:ci": "echo \"All Good\" && exit 0"
+    "test:ci": "echo \"All Good\" && exit 0",
+    "tag": "npm version major",
+    "tag:alpha": "npm version prerelease --preid=alpha",
+    "tag:beta": "npm version prerelease --preid=beta"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
