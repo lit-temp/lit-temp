@@ -1,6 +1,6 @@
 {
   "name": "lit-temp",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.0",
   "description": "A light-weight approach to dynamic html rendering for ssr.",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/lit-temp/lit-temp#readme",
   "scripts": {
     "build": "rimraf build && tsc",
-    "build:npm": "tsc && copy package.json build && copy README.md build && copy assets/logo.png build",
+    "build:npm": "tsc && cp package.json build && cp README.md build && cp assets/logo.png build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:ci": "echo \"All Good\" && exit 0",
     "tag": "npm version major",
