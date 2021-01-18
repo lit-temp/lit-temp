@@ -1,6 +1,6 @@
 {
   "name": "lit-temp",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "A light-weight approach to dynamic html rendering for ssr.",
   "main": "index.js",
   "repository": {
