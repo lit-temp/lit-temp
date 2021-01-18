@@ -1,0 +1,27 @@
+{
+  "name": "lit-temp",
+  "version": "1.0.0-alpha.0",
+  "description": "A light-weight approach to dynamic html rendering for ssr.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lit-temp/lit-temp.git"
+  },
+  "keywords": [
+    "literal template",
+    "html templates",
+    "ssr",
+    "html",
+    "javascript"
+  ],
+  "author": "Allan Mobley Jr",
+  "icon": "logo.png",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lit-temp/lit-temp/issues"
+  },
+  "homepage": "https://github.com/lit-temp/lit-temp#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
