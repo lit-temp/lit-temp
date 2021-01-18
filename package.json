@@ -22,6 +22,12 @@
   },
   "homepage": "https://github.com/lit-temp/lit-temp#readme",
   "scripts": {
+    "build": "rimraf build && tsc",
+    "build:npm": "rimraf build && tsc && copy package.json build && copy README.md build && copy assets/logo.png build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
   }
 }
