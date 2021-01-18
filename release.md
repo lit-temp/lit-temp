@@ -1,4 +1,4 @@
-<img align="center" src="https://avatars2.githubusercontent.com/u/76873423" width="96" height="96" />
+<img align="center" src="https://github.com/lit-temp/lit-temp/raw/main/assets/lit-temp.png" />
 
 # New
   * First alpha release.
